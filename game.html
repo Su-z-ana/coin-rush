@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boat nd sea</title>
+    <style>
+      #info {
+        position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #f6f0f0;
+            font-size: larger;
+            background-color: red;
+        }
+        #timer {
+        position: absolute;
+            top: 45px;
+            left: 10px;
+            color: #f6f0f0;
+            font-size: larger;
+            background-color: red;
+        }
+       
+        #gover{
+          font-size: 4rem;
+           position: absolute;
+           color: rgb(2, 1, 1);
+           left:650px;
+           right:500px;
+           top:250px;
+        }
+        #home{
+          font-size: 2rem;
+           position: absolute;
+           color: rgb(2, 1, 1);
+           left:10px;
+           right:10px;
+           top:100px;
+        }
+
+        #res{
+          font-size: 2rem;
+           position: absolute;
+           color: rgb(232, 198, 7);
+           left:650px;
+           right:500px;
+           top:450px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div id="timer" class="timer">Timer: 60s</div>
+    <div id="info">Coins collected: <span id="Count">0</span></div>
+    <div id="gover" class="gover"></div>
+    <div id="res" class="res"></div>
+    <a href="index.html"><div id="home" class="home"> </div></a>
+    <audio id="audio" src="coin.wav"></audio>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
